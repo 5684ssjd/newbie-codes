@@ -1,10 +1,5 @@
 {
   "name": "dsh-lab",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
-  "hostRequirements": { "cpus": 4, "memory": "8gb" },
-  "features": {
-    "ghcr.io/devcontainers/features/sshd:1": {
-      "version": "latest"
-    }
-  }
+  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+  "hostRequirements": { "cpus": 4, "memory": "8gb" }
 }
